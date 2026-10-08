@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://e.top4top.io/p_38721hu6c1.jpg" width="250"/>
+  <img src="https://files.catbox.moe/up1z7y.jpg" width="250"/>
 </p>
 
 <h1 align="center">WhatsApp Baileys</h1>
@@ -15,7 +15,7 @@
 </p>
 
 > [!NOTE]
-> `"@whiskeysockets/baileys": "github:xvnsync/xbails"` is an unofficial WhatsApp Web API library. Not affiliated, not authorized, not maintained, not sponsored, and not endorsed by WhatsApp or Meta.
+> `"@whiskeysockets/baileys": "github:xzsnycx/xzbails"` is an unofficial WhatsApp Web API library. Not affiliated, not authorized, not maintained, not sponsored, and not endorsed by WhatsApp or Meta.
 >
 > Use Baileys responsibly, and comply with the WhatsApp Terms of Service and applicable laws.
 
@@ -69,7 +69,7 @@ Add it to your `package.json`:
 ```json
 {
   "dependencies": {
-    "@whiskeysockets/baileys": "github:xvnsync/xbails"
+    "@whiskeysockets/baileys": "github:xzsnycx/xzbails"
   }
 }
 ```
@@ -135,12 +135,12 @@ console.log("Ur pairing code : " + code);
 ```javascript
 // relayMessage — sends a raw message object, bypassing the sendMessage pipeline
 await client.relayMessage(m.chat, {
-  conversation: 'XvnSynC'
+  conversation: 'XzsnyC'
 })
 
 // sendMessage — the standard way to send a message
 await client.sendMessage(m.chat, {
-  text: 'XvnSynC'
+  text: 'XzsnyC'
 })
 ```
 
@@ -165,7 +165,7 @@ await client.sendRich(m.chat, {
   header: {
     disclaimer: true,
     disclaimerText: "t.me/luyatiem",
-    title: "XvnSynC"
+    title: "XzsnyC"
   },
   body: {
     title: "Select Option",
@@ -173,7 +173,7 @@ await client.sendRich(m.chat, {
   },
   footer: {
     text: "Telegram Channel",
-    url: "https://t.me/aboutvin7x"
+    url: "https://t.me/xznow7x"
   }
 });
 ```
@@ -185,7 +185,7 @@ await client.sendRich(m.chat, {
 ```javascript
 await client.relayMessage(m.chat, {
   extendedTextMessage: {
-    text: "XvnSynC"
+    text: "XzsnyC"
   }
 }, {
   ptcp: true
@@ -196,7 +196,7 @@ await client.relayMessage(m.chat, {
 
 ```javascript
 await client.sendMessage(m.chat, {
-  text: "XvnSynC"
+  text: "XzsnyC"
 }, {
   ptcp: true
 });
@@ -206,7 +206,7 @@ await client.sendMessage(m.chat, {
 
 # Message Builder
 
-MessageBuilder v4.7 is included directly in `"github:xvnsync/xbails"`.
+MessageBuilder v4.7 is included directly in `"github:xzsnycx/xzbails"`.
 
 ## Import
 
@@ -234,17 +234,17 @@ const {
 const { MB } = require('@whiskeysockets/baileys')
 
 const rich = new MB.AIRich(sock)
-  .setTitle('XvnSynC')
+  .setTitle('XzsnyC')
   .setFooter('Dibuat dengan AIRich')
   .addText('Halo! Ini respons rich.')
-  .addCode('javascript', `console.log('Halo Melvin')`)
+  .addCode('javascript', `console.log('Halo Fyzz')`)
   .addTable([
     ['Fitur', 'Status'],
     ['Button', 'Tersedia'],
     ['Carousel', 'Tersedia'],
     ['AIRich', 'Eksperimental']
   ])
-  .addSuggest(['List Menu', 'Help', 'About Melvin'])
+  .addSuggest(['List Menu', 'Help', 'About Fyzz'])
 
 await rich.send(jid)
 ```
@@ -266,7 +266,7 @@ const msg = new MB.Button(client)
   .setFooter('t.me/luyatiem')
   .addReply('Ping', 'ping')
   .addUrl('Buka Website', 'https://example.com')
-  .addCopy('Salin Kode', 'XVNSYNC')
+  .addCopy('Salin Kode', 'FITXSNYC')
 
 await msg.send(m.chat)
 ```
@@ -281,10 +281,10 @@ await msg.send(m.chat)
 const { MB } = require('@whiskeysockets/baileys')
 
 const message = new MB.ButtonV2(client)
-  .setTitle('XvnSynC')
+  .setTitle('XzsnyC')
   .setSubtitle('WhatsApp Bot')
   .setBody('Pilih satu tindakan.')
-  .setFooter('Melvin Baileys')
+  .setFooter('Fyzz Baileys')
   .setThumbnail('https://example.com/xxx.jpg')
   .addButton('Menu', 'menu')
   .addButton('Ping', 'ping')
@@ -315,7 +315,7 @@ const card2 = await new MB.Button(client)
 
 const carousel = new MB.Carousel(client)
   .setBody('Pilih salah satu kartu di bawah.')
-  .setFooter('Melvin Carousel')
+  .setFooter('Fyzz Carousel')
   .addCard([card1, card2])
 
 await carousel.send(jid)
@@ -337,9 +337,9 @@ Because this library offers high stability, full features, and an actively impro
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/xvnsync">
-        <img src="https://github.com/xvnsync.png" width="80px;" style="border-radius:50%;" alt="Main contributor"/>
-        <br /><sub><b>Melvin</b></sub>
+      <a href="https://github.com/xzsnycx">
+        <img src="https://github.com/xzsnycx.png" width="80px;" style="border-radius:50%;" alt="Main contributor"/>
+        <br /><sub><b>Fyzz</b></sub>
       </a>
     </td>
   </tr>
@@ -351,6 +351,6 @@ Because this library offers high stability, full features, and an actively impro
 
 For questions, support, or collaboration, feel free to contact the developer:
 
-- **Telegram**: [Telegram Contact](https://t.me/luyatiem)
-- **Channel WhatsApp**: [Channel WhatsApp](https://whatsapp.com/channel/0029VbDlfld4yltRwFKFL73X)
-- **Channel Telegram**: [Channel Telegram](https://t.me/aboutvin7x)
+- **Telegram**: [Telegram Contact](https://t.me/FyzzModss)
+- **Channel WhatsApp**: [Channel WhatsApp](https://whatsapp.com/channel/0029VbBFQNb17En3MAIHaU3R)
+- **Channel Telegram**: [Channel Telegram](https://t.me/xznow7x)
