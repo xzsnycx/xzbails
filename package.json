@@ -14,7 +14,7 @@
     },
     "license": "MIT",
     "author": "XzsnyC",
-    "main": "lib/index.js",
+    "main": "module",
     "files": [
         "lib/**/*",
         "WAProto/**/*",
