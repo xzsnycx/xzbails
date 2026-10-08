@@ -164,7 +164,7 @@ await client.sendQuiz(m.chat, 'Correct answer?', ['1', '2', '3'], /* correctInde
 await client.sendRich(m.chat, {
   header: {
     disclaimer: true,
-    disclaimerText: "t.me/luyatiem",
+    disclaimerText: "t.me/FyzzModss",
     title: "XzsnyC"
   },
   body: {
